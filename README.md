@@ -1,4 +1,4 @@
-# MarketplaceRefundContract Exploit - VIRTUE Theft via `claimVirtueRefund`
+## MarketplaceRefundContract Exploit - VIRTUE Theft via `claimVirtueRefund`
 
 ## Summary
 
