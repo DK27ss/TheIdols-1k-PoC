@@ -142,6 +142,8 @@ Attack Contract (0xE201...Ce16)
 
 <img width="1430" height="381" alt="image" src="https://github.com/user-attachments/assets/3769d615-89a6-40c1-b675-2175d77798d9" />
 
+Attack TX https://app.blocksec.com/phalcon/explorer/tx/eth/0xee55b9ed98a275fc2058dfa547e7af0af26cf6cd095c3af731b7c61453bca3dd
+
 ### Exec Flow
 
 ```
