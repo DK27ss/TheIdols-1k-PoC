@@ -1,7 +1,5 @@
 ## MarketplaceRefundContract Exploit - VIRTUE Theft via `claimVirtueRefund`
 
-![logo](https://github.com/user-attachments/assets/1b1a49e0-5537-40e7-811e-6b367d81a3b4)
-
 ## Summary
 
 | Field | Value |
