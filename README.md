@@ -179,3 +179,12 @@ Two factors combined to make this exploit possible:
 1. **Development error (the vulnerability)**: use of `msg.sender` instead of `_to` as the token transfer recipient in the `claimVirtueRefund` function. The correct pattern was already implemented in `claimEthRefund` (line 104) which uses `_to` as the recipient. The `claimVirtueRefund` function was presumably not reviewed with the same attention, or fell victim to a poorly adapted copy-paste.
 
 2. **Reconstructible Merkle tree (the enabler)**: the small number of total leaves (~446 addresses) and the fact that 426 had already claimed on-chain - exposing their full leaf data and proof sibling hashes in public calldata - allowed the attacker to reconstruct >85% of the tree. The remaining 20 unknown leaves were brute-forced by correlating marketplace source-of-funds amounts with candidate `(address, refundAmount)` pairs until each leaf matched a known gap in the tree.
+
+>
+>Company : https://blockraider.xyz/
+>
+>Community : https://discord.gg/Vqqt7jyRr7
+>
+>Disclosure : https://t.me/blockraider_alerts_bot
+
+<img width="161" height="51" alt="blockraider" src="https://github.com/user-attachments/assets/dc86222a-b5fb-49e8-9a9d-350973b7521d" />
